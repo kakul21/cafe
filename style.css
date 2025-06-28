@@ -4,7 +4,10 @@ margin: 0;
 font-family:monospace sans-serif;
 font-size: larger;
 color:whitesmoke;
-line-height: 1.4;
+line-height: 1.4; 
+width: 80%;
+max-width: 400px;
+
 }
 
 a{
@@ -183,6 +186,13 @@ products-section h2{
     background-color: darkred;
 }
 
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
 script button 
 {
         width: 100px;
@@ -207,6 +217,16 @@ script button .btn:hover {
         flex-direction: column;
         align-items: center;
     }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 10px 0;
+  }
+}
+
 
     .product {
         width: 90%; /* Full width on small screens */
