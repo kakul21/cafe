@@ -1,13 +1,10 @@
 body{
 background-color: blanchedalmond;
 margin: 0;
-font-family:monospace sans-serif;
+font-family: 'Monospace', sans-serif;
 font-size: larger;
 color:whitesmoke;
 line-height: 1.4; 
-width: 80%;
-max-width: 400px;
-
 }
 
 a{
@@ -207,10 +204,35 @@ script button .btn:hover {
 
 
 @media (max-width: 768px) {
-    .products-container {
+    nav ul {
         flex-direction: column;
         align-items: center;
     }
+
+    nav li {
+        margin: 5px 0;
+        float: none;
+    }
+
+    .content, #Main-section {
+        padding: 0 1rem;
+    }
+
+    #first h1 {
+        font-size: 2.5rem;
+    }
+
+    #first h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    footer .d {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
 
 
     .product {
