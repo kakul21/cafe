@@ -178,10 +178,6 @@ footer .d ul li:first-child{
 .product button:hover {
     background-color: darkred;
 }
-.cart{
-    color:sienna;
-}
-
 
 * {
   box-sizing: border-box;
