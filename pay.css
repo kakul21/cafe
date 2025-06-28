@@ -244,3 +244,54 @@ footer .d ul li:first-child {
 }
 
 
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 5px 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .content, #Main-section {
+        padding: 0 1rem;
+    }
+
+    #first h1 {
+        font-size: 2.5rem;
+    }
+
+    #first h2 {
+        font-size: 1.5rem;
+    }
+    body {
+  font-size: 1rem;
+}
+
+nav {
+  height: auto;
+}
+
+}
+@media (max-width: 768px) {
+    footer .d {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .product {
+        width: 90%; /* Full width on small screens */
+    }
+}
