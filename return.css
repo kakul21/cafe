@@ -4,6 +4,7 @@ body{background-color: blanchedalmond;
     font-size: larger;
     color:sienna;
     line-height: 1.4;
+     overflow-x: hidden;
     }
     
     a{
@@ -123,6 +124,10 @@ body{background-color: blanchedalmond;
         color: cadetblue;
     }
 
+p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 
 * {
   box-sizing: border-box;
