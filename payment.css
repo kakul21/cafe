@@ -1,0 +1,196 @@
+/* General body styling */
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    font-family: monospace sans-serif;
+    font-size: larger;
+    color: sienna;
+    line-height: 1.4;
+}
+
+/* Anchor links styling */
+a {
+    text-decoration: none;
+    color: sienna;
+    font-size: large;
+}
+
+/* Header and Navigation styling */
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+    display: inline;
+    float: left;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    color: sienna;
+   text-decoration: none;
+}
+
+nav li:hover {
+    background-color: cornsilk;
+}
+
+.content{
+    max-width:1180px;
+    text-align:center;
+    margin: 0 auto;
+    padding: 0 3rem;
+ }
+
+/* Main container styling */
+/* Form styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+    border-radius: 10px;
+    background: blanchedalmond;
+    margin-top: 60px; /* To avoid overlap with header */
+}
+
+form {
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    background: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.column .Input-box {
+    margin: 15px 0;
+}
+
+.Input-box h3 {
+    margin: 0;
+} 
+
+ .Input-box .input { 
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    form {
+        padding: 20px;
+    }
+    
+    form .row {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    }
+}
+
+
+.row .column {
+    flex: 1 1 250px;
+}
+
+.column .title {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.column .Input-box {
+    margin: 15px 0;
+}
+
+.column .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.flex .Input-box {
+    flex: 1;
+}
+
+/* Submit button styling */
+form .btn {
+    width: 100px;
+    padding: 12px;
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form .btn:hover {
+    background: burlywood;
+}
+
+/* Footer styling */
+
+
+footer .d {
+    color: teal;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+footer .d ul {
+    list-style: none;
+}
+
+footer .d ul li:first-child {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 2px;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Content wrapper for main and footer spacing */
+#first .content,
+#Main-section,
+.container {
+    margin-top: 10px; /* Adjust this margin to avoid overlap with the header */
+}

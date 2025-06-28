@@ -1,0 +1,214 @@
+body{
+background-color: blanchedalmond;
+margin: 0;
+font-family:monospace sans-serif;
+font-size: larger;
+color:whitesmoke;
+line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+    color:sienna;
+    font-size:large;
+}
+
+#first{
+    margin:0;
+    padding: 0;
+    background-image: url('coffee-ai-generated_23-2150691619.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#first .content{
+    margin-top: 25vh;
+}
+
+#first h1{
+font-size: 4rem;
+margin-bottom: 0;
+}
+
+#first h2{
+    font-size: 2rem;
+}
+
+#first p{
+    
+     text-align: justify; 
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 10px;
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: sienna;
+}
+
+nav li:hover{
+    background-color:cornsilk;
+}
+
+.content{
+   max-width:1180px;
+   text-align:center;
+   margin: 0 auto;
+   padding: 0 3rem;
+}
+
+#Main-section {
+    max-width:1180px;
+    text-align:center;
+    margin: 0 auto;
+    padding: 0 3rem;
+ }
+
+.try{
+    font-size: 1.3rem;
+ }
+
+
+footer .d{
+    color: teal;
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem;
+    text-align: left;
+}
+
+footer .d ul{
+    list-style: none;
+}
+
+footer .d ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom:0.5rem ;
+    border-bottom: solid 2px;
+    margin-bottom: 1rem;
+}
+
+.furious{
+    color:peru;
+}
+.Section{
+    color: cadetblue;
+}
+
+.products-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.products-section h2{
+    color: sienna;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+products-section h2{
+    color: sienna;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product .price {
+    color: sienna;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: sienna;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: darkred;
+}
+
+script button 
+{
+        width: 100px;
+        padding: 12px;
+        background-color: burlywood;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        font-size: 17px;
+        color: #fff;
+        cursor: pointer;
+        transition: .5s;
+}
+
+script button .btn:hover {
+    background: burlywood;
+}
+
+
+@media (max-width: 768px) {
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 90%; /* Full width on small screens */
+    }
+}

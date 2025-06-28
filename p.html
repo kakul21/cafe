@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frostae: Experience the perfect blend of flavor and comfort at our café! Discover our range of coffees, juices, sandwiches, and desserts.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="add.js" defer></script>
+</head>
+<body>
+   <div id="first">
+    <header>
+    <nav id="fi">
+        <ul class="list">
+            <li>
+                <a href="p.html">HOME</a>
+            </li>
+            <li>
+                <a href="#Aboutus">ABOUT US</a>
+            </li>
+           <li>
+                <a href="Contact.html">Contact US</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="Main-section">
+        <h1>FROSTAE</h1>
+        <h2>"Experience the Perfect Blend of Flavor and Comfort at Our Café!"</h2>
+        <p class="try">Welcome to our Frostae, where every visit promises a delightful escape. Savor the rich aroma of freshly brewed coffee and indulge in our artisanal pastries, crafted with love and the finest ingredients. Whether you're here for a quick bite or a leisurely chat with friends, our warm and inviting atmosphere is the perfect backdrop for every moment.</p>
+        </div>
+        </div> 
+</header>
+</div> 
+ <div id="cart">
+       Items in cart: <span id="cartCount">0</span>
+   </div>
+<section id="coffee" class="products-section">
+    <h2>Coffee</h2>
+    <div class="products-container">
+        <div class="product">
+            <img src="espresso.jpeg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p class="price">&#8377;100</p>
+            <p>A rich, full-bodied coffee with a smooth finish.</p>
+            <button onclick="addToCart('Espresso',100)" >Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="latte.jpeg" alt="Latte">
+            <h3>Latte</h3>
+            <p class="price">&#8377;150</p>
+            <p>A perfect blend of espresso and steamed milk.</p>
+            <button onclick="addToCart('Latte',150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="cap.jpeg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p class="price">&#8377;120</p>
+            <p>Espresso, steamed milk, and a deep layer of foam.</p>
+            <button onclick="addToCart('Cappuccino',120)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="americano.jpeg" alt="Americano">
+            <h3>Americano</h3>
+            <p class="price">&#8377;140</p>
+            <p>A smooth, rich coffee made with hot water and espresso.</p>
+            <button onclick="addToCart('Americano',140)">Add to Cart</button>
+        </div>
+        </div>
+</section>
+
+<section id="juice" class="products-section">
+    <h2>Juices</h2>
+    <div class="products-container">
+        <div class="product">
+            <img src="orange.jpeg" alt="orange juice">
+            <h3>Orange Juice</h3>
+            <p class="price">&#8377;70</p>
+            <p>Freshly squeezed orange juice with no added sugar.</p>
+            <button onclick="addToCart('Orange Juice',70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pine.jpeg" alt="Pineapple juice">
+            <h3>Pineapple Juice</h3>
+            <p class="price">&#8377;80</p>
+            <p>Refreshing pineapple juice made from ripe pineapples</p>
+            <button onclick="addToCart('Pineapple Juice',80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="mixed.jpeg" alt="Mixed Fruit Juice">
+            <h3>Mixed Fruit Juice</h3>
+            <p class="price">&#8377;90</p>
+            <p>A delightful blend of various fresh fruits.</p>
+            <button onclick="addToCart('Mixed Fruit Juice',90)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="lemon.jpeg" alt="Lemon juice">
+            <h3>Lemon Juice</h3>
+            <p class="price">&#8377;50</p>
+            <p>Freshly squeezed lemon juice with a hint of mint.</p>
+            <button onclick="addToCart('Lemon Juice',50)">Add to Cart</button>
+        </div>
+        </div>
+</section>
+
+<section id="sandwiches" class="products-section">
+    <h2>Sandwiches</h2>
+    <div class="products-container">
+        <div class="product">
+            <img src="griii.jpeg" alt="Veg Grilled Sandwich">
+            <h3>Veg Grilled Sandwich</h3>
+            <p class="price">&#8377;150</p>
+            <p>A hearty blend of fresh vegetables and grilled to perfection.</p>
+            <button onclick="addToCart('Veg Grilled Sandwich',150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="bom.jpeg" alt="Bombay Sandwich">
+            <h3>Bombay Sandwich</h3>
+            <p class="price">&#8377;180</p>
+            <p>A flavorful, spicy sandwich with layers of chutney, vegetables, and masala.</p>
+            <button onclick="addToCart('Bombay Sandwich',180)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="chutney.jpeg" alt="Veg Pinwheel Sandwich">
+            <h3>Green Chutney Sandwich</h3>
+            <p class="price">&#8377;150</p>
+            <p>A delightful, rolled sandwich filled with a medley of fresh vegetables and tangy spreads.</p>
+            <button onclick="addToCart('Green Chutney Sandwich',150)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="club.jpeg" alt="Veg Club sandwich">
+            <h3>Club Sandwich</h3>
+            <p class="price">&#8377;200</p>
+            <p>A triple-layered sandwich with crisp vegetables, cheese, and a savory spread.</p>
+            <button onclick="addToCart('Veg Club Sandwich',200)">Add to Cart</button>
+        </div>
+        </div>
+</section>
+<div id="cart">
+    Items in cart: <span id="cartCount">0</span>
+</div>
+<section id="desserts" class="products-section">
+    <h2>DESSERTS</h2>
+    <div class="products-container">
+        <div class="product">
+            <img src="muff.jpeg" alt="Muffins">
+            <h3>Muffins</h3>
+            <p class="price">&#8377;70</p>
+            <p> Soft, fluffy treats available in a variety of flavors like chocolate chip, blueberry, and banana nut.</p>
+            <button onclick="addToCart('Muffins',70)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="donut.jpeg" alt="Donuts">
+            <h3>Donut</h3>
+            <p class="price">&#8377;80</p>
+            <p> A sweet, fried dough pastry with a variety of toppings and fillings, such as glaze, chocolate, or jam.</p>
+            <button onclick="addToCart('Donuts',80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="cro.jpg" alt="Croissant">
+            <h3>Croissant</h3>
+            <p class="price">&#8377;100</p>
+            <p>A buttery, flaky pastry with a crisp exterior and tender, layered interior.</p>
+            <button onclick="addToCart('Croissant',100)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pastry.jpeg" alt="pastry">
+            <h3>pastry</h3>
+            <p class="price" >&#8377;120</p>
+            <p> A delicate and elegant cake made with layers of flaky pastry and rich fillings, often adorned with fruit or cream.</p>
+            <button onclick="addToCart('pastry',120)">Add to Cart</button>
+        </div>
+        </div>
+        
+</section>
+<p>Items in Cart: <span id="cartCount">0</span></p>
+
+
+<section id="Aboutus" class="Section">
+<div class="content" >
+    <h2 class="furious">ABOUT US</h2>
+    <h3>
+        Whether you're here for a quick bite or a leisurely chat with friends, our warm and inviting atmosphere is the perfect backdrop for every moment.
+    </h3>
+</div>
+</section>
+<footer>
+    <div class="content">
+        <div class="d">
+        <ul>
+            <li>Category</li>
+            <li>
+                <a href="#juice">Juices</a>
+            </li>
+            <li>
+                <a href="#desserts">Desserts</a>
+            </li> 
+            <li>
+                <a href="#sandwiches">Sandwiches</a>
+            </li>
+            <li>
+                <a href="#coffee">Coffee</a>
+            </li>
+            </ul>
+            <ul>
+            <li>Quick Links</li>
+            <li>
+                <a href="#Aboutus">About us</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li> 
+            <li>
+                <a href="p.html">Home</a>
+            </li>
+            <li>
+                <a href="Payment.html">Payment</a>
+            </li>
+        </ul>
+        <ul>
+            <li>Policies</li>
+            <li>
+                <a href="shi.html">Shipping Policy</a>
+            </li>
+            <li>
+                <a href="return.html">Return Policy</a>
+            </li> 
+            <li>
+                <a href="ref.html">Refund Policy</a>
+            </li>
+            <li>
+                <a href="terms.html">Terms and condition</a>
+            </li>
+        </ul>
+        </div>
+        <div>
+            Copyright &copy; 2021
+        </div>
+    </div>
+</footer>
+<script>
+    // Function to load cart items from localStorage and display them on the payment page
+    function loadCartItems() {
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        let total = localStorage.getItem('cartTotal');
+        
+        if (cart && cart.length > 0) {
+            let cartItemsContainer = document.getElementById('cart-items');
+            cartItemsContainer.innerHTML = ''; // Clear any existing content
+
+            cart.forEach((item, index) => {
+                let itemElement = document.createElement('div');
+                itemElement.className = 'cart-item';
+                itemElement.innerHTML = `
+                    <p>${item.name} - ₹${item.price} x ${item.quantity}</p>
+                    <button onclick="removeFromCart(${index})">Remove</button>
+                `;
+                cartItemsContainer.appendChild(itemElement);
+            });
+
+            document.getElementById('total-amount').innerText = total;
+        } else {
+            document.getElementById('cart-items').innerHTML = '<p>Your cart is empty.</p>';
+            document.getElementById('total-amount').innerText = '0';
+        }
+    }
+
+    // Function to remove an item from the cart
+    function removeFromCart(index) {
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        
+        if (cart && cart.length > 0) {
+            cart.splice(index, 1); // Remove the item at the given index
+
+            // Recalculate the total amount
+            let total = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+
+            // Update localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+            localStorage.setItem('cartTotal', total);
+
+            // Reload the cart items
+            loadCartItems();
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = loadCartItems;
+
+    // Update all cart count displays
+function updateCartCountDisplay() {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    let cartCount = cart.length;
+    document.querySelectorAll('#cartCount').forEach(countElement => {
+        countElement.textContent = cartCount;
+    });
+}
+
+window.onload = function() {
+    loadCartItems();
+    updateCartCountDisplay();
+};
+
+</script>
+
+
+</body>
+</html>

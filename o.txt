@@ -1,0 +1,58 @@
+<div class="container">
+        <form action="">
+        <div class="row">
+            <div class="column">
+                <h1 class="title"><b>BILLING SECTION</b></h1>
+                <div class="Input-box"><h3>
+                    <span>Name :</span>
+                    <input type="text" class="input"><h3>
+                </div>       
+                <div class="Input-box"><h3>
+                    <span>Email :</span>
+                    <input type="text" class="input"><h3>
+                </div>
+                <div class="flex">
+                    <div class="Input-box"><h3>
+                    <span>city :</span>
+                    <input type="text" class="input"><h3>
+                </div> 
+                <div class="Input-box"><h3>
+                    <span>Address :</span>
+                    <input type="text" class="input"><h3>
+                </div> 
+            </div>
+                <div class="flex">
+                    <div class="Input-box"><h3>
+                    <span>Pincode :</span>
+                    <input type="number" class="input"><h3>
+                </div>  
+            </div>
+        </div>
+
+        <div class="column">
+            <h1 class="title"><b>PAYMENT</b><h3>
+            <div class="Input-box"><h3>
+                <span>Card Number :</span>
+                <input type="number" class="input"><h3>
+            </div>
+            <div class="Input-box"><h3>
+                <span>Expiry Month :</span>
+                <input type="number" class="input"><h3>
+            </div> 
+            <div class="flex">
+                <div class="Input-box"><h3>
+                <span>Expiry Year :</span>
+                <input type="number" class="input"><h3>
+            </div> 
+                <div class="Input-box"><h3>
+                <span>CVV :</span>
+                <input type="number" class="input"><h3>
+            </div>  
+        </div>
+    </div>
+    </div>
+    <br><br>
+    <button type="submit" class="btn">SUBMIT</button>
+    </form>
+</div>
+</div> 
